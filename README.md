@@ -6,7 +6,6 @@
 
 ![Project-Screenshot](Screenshot.png)
 
-
 ## Technologies used?
 
     - HTML
