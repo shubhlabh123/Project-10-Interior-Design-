@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-<img " alt="Screenshot 2022-08-29 at 8 42 44 AM" src="./Screenshot .png">
+![screenshot](./screenshot.png)
 
 
 ## Technologies used?
