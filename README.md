@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![screenshot](/Screenshot.png)
+![screenshot](./Screenshot.png)
 
 
 ## Technologies used?
