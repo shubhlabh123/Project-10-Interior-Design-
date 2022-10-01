@@ -25,8 +25,6 @@
 
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-green) [Shubham Somvanshi](https://www.linkedin.com/in/shubham-somvanshi-778193135/)
 
-##shuuu
 
-    - hey
-    -g
-    -tthhh
+
+    
