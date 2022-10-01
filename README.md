@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Desktop](/Screenshot(1).png)
+![Desktop](./Screenshot (1).png)
 
 
 ## Technologies used?
