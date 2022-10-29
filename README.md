@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Project-Screenshot](./images/sc.png)
+![Project-Screenshot](./images2/sc.png)
 
 ## Technologies used?
 
