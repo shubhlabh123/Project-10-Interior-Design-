@@ -14,6 +14,8 @@
 ## Time duration to build this project?
 
     - 8 hr
+## Live  Link is below:
+[See It Live](https://project-10-interior-design-o6z8.vercel.app/)
 
 ## How to run ?
 
