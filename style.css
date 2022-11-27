@@ -1,0 +1,540 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* .main {
+  height: 48vw;
+  width: 100vw;
+  z-index: -5;
+} */
+body {
+  background-image: url(./images/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 106%;
+}
+/* .icon {
+  background-color: white;
+  height: 33px;
+  width: 113px;
+  padding: 0px 0px;
+  border-radius: 40px;
+} */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -357px;
+  position: relative;
+  left: 329px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  column-gap: 59px;
+  color: white;
+  font-family: inter;
+  margin-top: 63px;
+  margin-left: 189px;
+  font-size: 21px;
+  font-weight: 600;
+}
+nav svg {
+  margin-left: -180px;
+  margin-top: 16px;
+}
+.toplogo {
+  margin-top: 81px;
+  margin-left: 27px;
+  height: 47px;
+  width: 117px;
+}
+nav h3 {
+  color: white;
+  margin-top: 49px;
+  margin-right: 20px;
+  font-family: "Inter";
+  font-size: 19px;
+}
+.left-section h2 {
+  font-size: 72px;
+  color: white;
+  font-family: "Inter";
+  margin-left: 105px;
+  margin-top: 172px;
+  word-spacing: 10.5px;
+  z-index: 2;
+}
+.btn {
+  font-size: 26px;
+  color: white;
+  background-color: transparent;
+  border-radius: 39px;
+  border-color: white;
+  padding: 20px 55px;
+  border-width: 3px;
+  font-family: "Inter";
+  z-index: 10;
+  position: absolute;
+  top: 531px;
+  left: 78px;
+  border-block-color: white;
+  border-top-color: white;
+}
+
+.top {
+  color: white;
+  font-family: inter;
+  z-index: 2;
+  position: absolute;
+  top: 287px;
+  left: 938px;
+  font-size: 19px;
+}
+.bottom {
+  color: white;
+  font-family: inter;
+  z-index: 2;
+  margin-left: 719px;
+  margin-top: 5px;
+}
+.box2 {
+  width: 24vw;
+  height: 13vw;
+  margin: 30px;
+  background-color: #ffffff;
+  opacity: 0.2;
+  position: absolute;
+  top: 159px;
+  left: 876px;
+  z-index: -2;
+}
+.box1 {
+  width: 23vw;
+  height: 15vw;
+  margin: 30px;
+  background-color: #ffffff;
+  opacity: 0.2;
+  position: absolute;
+  top: 505px;
+  left: 654px;
+  z-index: -3;
+}
+.navbar {
+  display: flex;
+}
+.icon {
+  position: relative;
+  top: -305px;
+  left: 941px;
+}
+.light {
+  position: relative;
+  top: -168px;
+  left: 588px;
+  z-index: 6;
+}
+.rectangle {
+  height: 50px;
+  width: 104px;
+  background-color: white;
+  position: absolute;
+  top: 216px;
+  left: 939px;
+  z-index: -1;
+  border-radius: 25px;
+}
+.rectangle2 {
+  height: 50px;
+  width: 104px;
+  background-color: white;
+  position: absolute;
+  top: 565px;
+  left: 720px;
+  z-index: -1;
+  border-radius: 25px;
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 437px;
+  left: 1119px;
+}
+.circle2 {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 606px;
+  left: 1064px;
+}
+
+/* .vl {
+  border-left: 6px solid green;
+  height: 300px;
+  position: absolute;
+  top: 606px;
+  left: 1054px;
+} */
+.vl2 {
+  border-left: 1px solid white;
+  height: 73px;
+  position: absolute;
+  top: 364px;
+  left: 1128px;
+}
+hr {
+  position: absolute;
+  top: 153px;
+  left: 299px;
+  width: 998px;
+}
+.small {
+  position: absolute;
+  top: 614px;
+  left: 994px;
+  width: 76px;
+}
+.btm {
+  border-top: 2px solid white;
+}
+.circle {
+  display: inline-block;
+
+  animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 10s; /* don't forget to set a duration! */
+  animation-delay: 0s;
+  animation-iteration-count: 60;
+}
+.circle2 {
+  display: inline-block;
+
+  animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 10s; /* don't forget to set a duration! */
+  animation-delay: 0s;
+  animation-iteration-count: 60;
+}
+@media only screen and (max-width: 1296px) {
+  .toplogo {
+    height: 41px;
+    width: 110px;
+  }
+  nav {
+    left: 257px;
+  }
+  hr {
+    left: 221px;
+    width: 965px;
+  }
+  nav ul {
+    font-size: 19px;
+  }
+  nav h3 {
+    font-size: 17px;
+  }
+  .left-section h2 {
+    font-size: 68px;
+  }
+  .btn {
+    font-size: 24px;
+  }
+  .top {
+    font-size: 18px;
+  }
+  .bottom {
+    font-size: 18px;
+    margin-top: 21px;
+  }
+  .icon {
+    top: -295px;
+  }
+  .vl2 {
+    top: 357px;
+  }
+  .small {
+    left: 981px;
+    width: 78px;
+  }
+  .circle {
+    top: 429px;
+  }
+  .circle2 {
+    left: 1059px;
+  }
+}
+@media only screen and (max-width: 1196px) {
+  nav {
+    left: 198px;
+  }
+  nav ul {
+    font-size: 17px;
+  }
+  .toplogo {
+    height: 39px;
+    width: 99px;
+  }
+  hr {
+    left: 146px;
+    width: 915px;
+  }
+  .left-section h2 {
+    font-size: 60px;
+  }
+  .btn {
+    font-size: 21px;
+  }
+  .right-section {
+    margin-left: -114px;
+  }
+  .box1 {
+    width: 21vw;
+    height: 14vw;
+    left: 555px;
+  }
+  .rectangle2 {
+    top: 545px;
+    left: 609px;
+  }
+  .box2 {
+    width: 22vw;
+    height: 14vw;
+    left: 781px;
+  }
+  .rectangle {
+    top: 197px;
+    left: 831px;
+  }
+  .bottom {
+    font-size: 17px;
+    margin-top: 25px;
+  }
+  .top {
+    font-size: 17px;
+    left: 821px;
+  }
+  .small {
+    left: 829px;
+  }
+  .vl2 {
+    top: 353px;
+    left: 942px;
+  }
+  .circle2 {
+    left: 905px;
+  }
+  .circle {
+    top: 422px;
+    left: 933px;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .left-section h2 {
+    font-size: 51px;
+  }
+  .btn {
+    font-size: 19px;
+  }
+  nav ul {
+    font-size: 15px;
+  }
+  nav h3 {
+    font-size: 15px;
+  }
+  .toplogo {
+    height: 32px;
+    width: 90px;
+  }
+  hr {
+    left: 146px;
+    width: 838px;
+  }
+  .right-section {
+    margin-left: -237px;
+  }
+  .box1 {
+    width: 21vw;
+    height: 14vw;
+    left: 439px;
+    top: 489px;
+  }
+  .rectangle2 {
+    top: 535px;
+    left: 486px;
+  }
+  .box2 {
+    width: 22vw;
+    height: 16vw;
+    left: 670px;
+    top: 137px;
+  }
+  .top {
+    font-size: 15px;
+    left: 719px;
+    top: 273px;
+  }
+  .rectangle {
+    top: 193px;
+    left: 713px;
+  }
+  .icon {
+    top: -277px;
+    left: 952px;
+  }
+  .light {
+    position: relative;
+    top: -159px;
+  }
+  .small {
+    left: 690px;
+  }
+  .vl2 {
+    top: 335px;
+    left: 861px;
+  }
+  .circle2 {
+    left: 765px;
+  }
+  .circle {
+    top: 407px;
+    left: 851px;
+  }
+}
+@media only screen and (max-width: 972px) {
+  .toplogo {
+    height: 32px;
+    width: 80px;
+    margin-top: 77px;
+    margin-left: 27px;
+  }
+  nav {
+    left: 194px;
+    top: 22px;
+    margin-left: -332px;
+    position: relative;
+  }
+  nav ul {
+    font-size: 13px;
+    column-gap: 47px;
+    margin-top: 63px;
+    margin-left: 189px;
+  }
+  nav h3 {
+    font-size: 13px;
+    margin-top: 55px;
+  }
+  nav svg {
+    margin-left: -172px;
+    margin-top: 8px;
+  }
+  .btm {
+    border-top: 1px solid white;
+  }
+  hr {
+    left: 157px;
+    position: absolute;
+    top: 153px;
+    width: 729px;
+  }
+  .left-section h2 {
+    font-size: 54px;
+    margin-left: 214px;
+    margin-top: 91px;
+  }
+
+  .circle {
+    top: 512px;
+    left: 253px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+  }
+  .vl2 {
+    top: 337px;
+    left: 273px;
+    width: 208px;
+    border-bottom: 1px solid white;
+    height: 186px;
+    position: absolute;
+    border-left: 0px solid white;
+  }
+  .icon {
+    top: 62px;
+    left: 728px;
+    position: relative;
+  }
+  .top {
+    font-size: 17px;
+    left: 491px;
+    top: 537px;
+    position: absolute;
+  }
+  .rectangle {
+    top: 449px;
+    left: 489px;
+    height: 50px;
+    width: 104px;
+    background-color: white;
+    position: absolute;
+  }
+  .box2 {
+    width: 26vw;
+    height: 16vw;
+    left: 451px;
+    top: 410px;
+    position: absolute;
+    margin: 30px;
+  }
+  body {
+    background-image: url(./images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 114%;
+  }
+  .btn {
+    font-size: 21px;
+    margin-top: 2px;
+    border-width: 9px;
+    position: absolute;
+    top: 995px;
+    left: 401px;
+  }
+  .circle2 {
+    left: 253px;
+    position: absolute;
+    top: 782px;
+  }
+  .small {
+    left: 273px;
+    position: absolute;
+    top: 792px;
+    width: 208px;
+  }
+  .bottom {
+    font-size: 17px;
+    margin-top: 302px;
+    position: relative;
+    margin-left: 737px;
+  }
+  .light {
+    position: relative;
+    top: -170px;
+    left: 594px;
+  }
+  .box1 {
+    width: 26vw;
+    height: 16vw;
+    left: 451px;
+    top: 680px;
+    margin: 30px;
+    position: absolute;
+  }
+  .rectangle2 {
+    top: 719px;
+    left: 489px;
+    position: absolute;
+  }
+}
